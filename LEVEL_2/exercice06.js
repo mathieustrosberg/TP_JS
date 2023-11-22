@@ -1,12 +1,6 @@
 // Exercice 6 : Une vraie pyramide
 // Adaptez l'exercice 5 pour que la pyramide soit dans le bon sens (^).
 
-// Résultat attendu dans le terminal pour le chiffre 5 :
-//     *
-//    ***
-//   *****
-//  *******
-// *********
 const pyramid = (size) => {
   let str = "";
 
