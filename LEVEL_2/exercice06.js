@@ -1,7 +1,7 @@
 // Exercice 6 : Une vraie pyramide
 // Adaptez l'exercice 5 pour que la pyramide soit dans le bon sens (^).
 
-const pyramid = (size) => {
+function pyramid(size) {
   let str = "";
 
   // Traiter chaque ligne
@@ -30,6 +30,6 @@ const pyramid = (size) => {
   }
 
   return str;
-};
+}
 
 console.log(pyramid(5));
